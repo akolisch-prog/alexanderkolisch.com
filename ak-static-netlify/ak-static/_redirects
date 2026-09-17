@@ -1,0 +1,21 @@
+# 301 Redirects: alte WordPress-URLs
+/home/profil-alexander-kolisch-digital-executive-gruender-esade-mba/  /  301
+/home/berufserfahrung-alexander-kolisch-e-commerce-digital-marketing/  /  301
+/home/ausbildung-alexander-kolisch-esade-mba-diplom-wirtschaftsingenieurwesen/  /  301
+/home/pressepresse-erwaehnungen-alexander-kolisch/  /  301
+/home/projekte/  /  301
+/home/kontakt/  /  301
+/home/blog/  /  301
+/home/  /  301
+/home/profil/  /  301
+/home/arbeit/  /  301
+/home/studium/  /  301
+/home/presse/  /  301
+/home/impressum/  /impressum/  301
+/home/datenschutz/  /datenschutz/  301
+
+# WordPress artifacts
+/wp-admin/*  /  301
+/wp-login.php  /  301
+/xmlrpc.php  /  301
+/wp-sitemap.xml  /  301
