@@ -1,3 +1,7 @@
+# 301 Redirect: .de → .com
+https://alexanderkolisch.de/*  https://alexanderkolisch.com/:splat  301!
+https://www.alexanderkolisch.de/*  https://alexanderkolisch.com/:splat  301!
+
 # 301 Redirects: alte WordPress-URLs
 /home/profil-alexander-kolisch-digital-executive-gruender-esade-mba/  /  301
 /home/berufserfahrung-alexander-kolisch-e-commerce-digital-marketing/  /  301
