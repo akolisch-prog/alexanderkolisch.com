@@ -242,16 +242,32 @@
   <div class="si">
     <p class="sl r" data-lang="de">Kontakt</p><p class="sl r" data-lang="en">Contact</p>
     <h2 class="st r" data-lang="de">Sag Hallo</h2><h2 class="st r" data-lang="en">Say Hello</h2>
-    <p class="cd r" data-lang="de">Gerne über LinkedIn oder direkt per E-Mail.</p>
-    <p class="cd r" data-lang="en">Connect on LinkedIn or reach out via email.</p>
-    <div class="cb r">
-      <button class="btn p" onclick="sendMail()">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-        <span data-lang="de">E-Mail schreiben</span><span data-lang="en">Send email</span>
-      </button>
-      <a href="https://www.linkedin.com/in/alexanderkolisch/" target="_blank" rel="noopener" class="btn s">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
-        LinkedIn</a>
+    <p class="cd r" data-lang="de">Schreib mir eine Nachricht oder verbinde dich auf LinkedIn.</p>
+    <p class="cd r" data-lang="en">Send me a message or connect on LinkedIn.</p>
+    <div class="cf r">
+      <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/success/">
+        <input type="hidden" name="form-name" value="contact">
+        <p class="hp" aria-hidden="true"><input name="bot-field" tabindex="-1" autocomplete="off"></p>
+        <div class="ff">
+          <input type="text" name="name" required>
+          <label data-lang="de">Name</label><label data-lang="en">Name</label>
+        </div>
+        <div class="ff">
+          <input type="email" name="email" required>
+          <label data-lang="de">E-Mail</label><label data-lang="en">Email</label>
+        </div>
+        <div class="ff">
+          <textarea name="message" rows="4" required></textarea>
+          <label data-lang="de">Nachricht</label><label data-lang="en">Message</label>
+        </div>
+        <div class="fc-actions">
+          <button type="submit" class="btn p" data-lang="de">Nachricht senden</button>
+          <button type="submit" class="btn p" data-lang="en">Send message</button>
+          <a href="https://www.linkedin.com/in/alexanderkolisch/" target="_blank" rel="noopener" class="btn s">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            LinkedIn</a>
+        </div>
+      </form>
     </div>
   </div>
 </section>
