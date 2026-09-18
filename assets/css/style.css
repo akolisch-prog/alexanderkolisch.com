@@ -191,6 +191,9 @@ body.en .mm a[data-lang="en"]{display:block}
 body.en .nk a[data-lang="en"]{display:inline}
 body.en span[data-lang="en"]{display:inline}
 body.en .fl a[data-lang="en"]{display:inline}
+body.en button[data-lang="en"]{display:inline-flex}
+body.en label[data-lang="en"]{display:block}
+body.en p.ff-note[data-lang="en"]{display:block}
 
 /* ── GENERIC PAGE (Impressum, Datenschutz, Blog) ── */
 .ak-page{max-width:var(--mw);margin:0 auto;padding:calc(var(--nh) + 3rem) 2rem 4rem}
@@ -216,12 +219,12 @@ body.en .fl a[data-lang="en"]{display:inline}
 .cd-link{color:var(--black);font-weight:600;text-decoration:underline;text-underline-offset:3px;transition:color .2s}
 .cd-link:hover{color:var(--g500)}
 .cf{max-width:520px}
-.ff{position:relative;margin-bottom:1.25rem}
-.ff input,.ff textarea{width:100%;font-family:var(--sans);font-size:.92rem;color:#0a0a0a;background:#fafafa;border:1px solid var(--g200);border-radius:6px;padding:14px 16px;outline:none;transition:border-color .2s}
+.ff{margin-bottom:1.25rem}
+.ff-label{display:block;font-size:.82rem;font-weight:600;color:var(--g500);margin-bottom:.4rem;letter-spacing:.02em}
+.ff input,.ff textarea{width:100%;font-family:var(--sans);font-size:.92rem;color:#0a0a0a;background:var(--white);border:1px solid var(--g200);border-radius:6px;padding:12px 16px;outline:none;transition:border-color .2s}
 .ff textarea{color:#0a0a0a !important;-webkit-text-fill-color:#0a0a0a;resize:vertical;min-height:100px}
 .ff input:focus,.ff textarea:focus{border-color:var(--black)}
-.ff label{position:absolute;top:14px;left:16px;font-size:.92rem;color:var(--g400);pointer-events:none;transition:all .2s}
-.ff input:focus~label,.ff input:valid~label,.ff textarea:focus~label,.ff textarea:valid~label{top:-8px;left:12px;font-size:.72rem;background:var(--white);padding:0 4px;color:var(--g500)}
+.ff-note{font-size:.75rem;color:var(--g400);margin-bottom:1.25rem}
 .hp{position:absolute;overflow:hidden;clip:rect(0 0 0 0);height:1px;width:1px;margin:-1px;padding:0;border:0}
 .fc-actions{margin-top:1.5rem}
 .btn-submit{display:inline-flex;align-items:center;font-family:var(--sans);font-size:.85rem;font-weight:600;color:var(--white);background:var(--black);padding:12px 28px;border-radius:6px;transition:all .25s;cursor:pointer;border:none}
