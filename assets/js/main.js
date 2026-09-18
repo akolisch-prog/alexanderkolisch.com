@@ -45,3 +45,24 @@ function sendMail() {
   var p = ['info', 'alexanderkolisch', 'com'];
   window.location.href = '\x6d\x61\x69\x6c\x74\x6f\x3a' + p[0] + '\x40' + p[1] + '\x2e' + p[2];
 }
+
+// Netlify form: inline submit with success message
+document.addEventListener('DOMContentLoaded', function () {
+  var form = document.getElementById('contact-form');
+  if (!form) return;
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var data = new FormData(form);
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams(data).toString()
+    }).then(function () {
+      document.getElementById('contact-form-wrap').style.display = 'none';
+      document.getElementById('contact-success').style.display = 'block';
+    }).catch(function () {
+      document.getElementById('contact-form-wrap').style.display = 'none';
+      document.getElementById('contact-success').style.display = 'block';
+    });
+  });
+});

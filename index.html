@@ -238,14 +238,14 @@
 </section>
 
 <!-- CONTACT -->
-<section class="cs" id="kontakt">
+<section id="kontakt" style="background:var(--g50)">
   <div class="si">
     <p class="sl r" data-lang="de">Kontakt</p><p class="sl r" data-lang="en">Contact</p>
     <h2 class="st r" data-lang="de">Sag Hallo</h2><h2 class="st r" data-lang="en">Say Hello</h2>
     <p class="cd r" data-lang="de">Schreib mir eine Nachricht oder verbinde dich auf LinkedIn.</p>
     <p class="cd r" data-lang="en">Send me a message or connect on LinkedIn.</p>
-    <div class="cf r">
-      <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/success/">
+    <div class="cf r" id="contact-form-wrap">
+      <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="contact-form">
         <input type="hidden" name="form-name" value="contact">
         <p class="hp" aria-hidden="true"><input name="bot-field" tabindex="-1" autocomplete="off"></p>
         <div class="ff">
@@ -268,6 +268,10 @@
             LinkedIn</a>
         </div>
       </form>
+    </div>
+    <div class="cf-success" id="contact-success" style="display:none">
+      <p class="cf-thanks" data-lang="de">Danke für die Nachricht! Ich melde mich zeitnah.</p>
+      <p class="cf-thanks" data-lang="en">Thanks for your message! I'll get back to you soon.</p>
     </div>
   </div>
 </section>
