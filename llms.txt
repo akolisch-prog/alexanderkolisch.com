@@ -52,3 +52,10 @@ German (native), English (fluent), Spanish (good)
 - Website: https://alexanderkolisch.com
 - LinkedIn: https://www.linkedin.com/in/alexanderkolisch/
 - Email: info@alexanderkolisch.com
+
+## Key pages
+
+- [Profile and career (homepage)](https://alexanderkolisch.com/): One-page profile with career stations, education, press and contact form (German/English)
+- [About Alexander Kolisch](https://alexanderkolisch.com/about/): Detailed biography in prose, suitable for citation
+- [LinkedIn](https://www.linkedin.com/in/alexanderkolisch/): Professional profile
+- [Webmatch Advise](https://advise.webmatch.de): Current company (Co-Founder & Managing Partner)

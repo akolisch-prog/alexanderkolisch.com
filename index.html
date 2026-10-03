@@ -8,7 +8,7 @@
 <link rel="icon" type="image/png" href="/assets/img/favicon.png">
 <link rel="preload" href="/assets/fonts/manrope-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/libre-baskerville-latin-400-italic.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/style.css?v=1.7.2">
+<link rel="stylesheet" href="/assets/css/style.css?v=1.7.3">
 <link rel="alternate" hreflang="de" href="https://alexanderkolisch.com/">
 <link rel="alternate" hreflang="en" href="https://alexanderkolisch.com/#en">
 <link rel="alternate" hreflang="x-default" href="https://alexanderkolisch.com/">
@@ -93,6 +93,7 @@
   <div class="lt" style="margin-top:1rem"><button class="active" onclick="setLang('de')">DE</button><button onclick="setLang('en')">EN</button></div>
 </div>
 
+<main id="main">
 <!-- HERO -->
 <section class="hero">
   <div class="hero-inner">
@@ -254,20 +255,20 @@
     <p class="cd r" data-lang="de">Schreib mir eine Nachricht — oder verbinde dich auf <a href="https://www.linkedin.com/in/alexanderkolisch/" target="_blank" rel="noopener" class="cd-link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;vertical-align:-2px;margin-right:3px"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>LinkedIn</a>.</p>
     <p class="cd r" data-lang="en">Send me a message — or connect on <a href="https://www.linkedin.com/in/alexanderkolisch/" target="_blank" rel="noopener" class="cd-link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;vertical-align:-2px;margin-right:3px"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>LinkedIn</a>.</p>
     <div class="cf r" id="contact-form-wrap">
-      <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="contact-form">
+      <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="contact-form" toolname="contact_alexander_kolisch" tooldescription="Sends a contact message to Alexander Kolisch. Requires the sender's name, email address and the message text.">
         <input type="hidden" name="form-name" value="contact">
-        <p class="hp" aria-hidden="true"><input name="bot-field" tabindex="-1" autocomplete="off"></p>
+        <p class="hp" aria-hidden="true"><label>Leave empty <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
         <div class="ff">
-          <label class="ff-label" data-lang="de">Name *</label><label class="ff-label" data-lang="en">Name *</label>
-          <input type="text" name="name" required>
+          <label class="ff-label" for="f-name"><span data-lang="de">Name *</span><span data-lang="en">Name *</span></label>
+          <input type="text" name="name" id="f-name" autocomplete="name" required toolparamdescription="The sender's full name">
         </div>
         <div class="ff">
-          <label class="ff-label" data-lang="de">E-Mail *</label><label class="ff-label" data-lang="en">Email *</label>
-          <input type="email" name="email" required>
+          <label class="ff-label" for="f-email"><span data-lang="de">E-Mail *</span><span data-lang="en">Email *</span></label>
+          <input type="email" name="email" id="f-email" autocomplete="email" required toolparamdescription="The sender's email address for the reply">
         </div>
         <div class="ff">
-          <label class="ff-label" data-lang="de">Nachricht *</label><label class="ff-label" data-lang="en">Message *</label>
-          <textarea name="message" rows="4" required></textarea>
+          <label class="ff-label" for="f-message"><span data-lang="de">Nachricht *</span><span data-lang="en">Message *</span></label>
+          <textarea name="message" id="f-message" rows="4" required toolparamdescription="The message text"></textarea>
         </div>
         <p class="ff-note" data-lang="de">* Pflichtfeld</p>
         <p class="ff-note" data-lang="en">* Required field</p>
@@ -284,6 +285,8 @@
   </div>
 </section>
 
+</main>
+
 <!-- FOOTER -->
 <footer class="ak-footer"><div class="fi">
   <span class="fc">© Copyright 2026 - All things digital. Almost. | Offizielle Website von Alexander Kolisch</span>
@@ -294,7 +297,7 @@
   </div>
 </div></footer>
 
-<script src="/assets/js/main.js?v=1.7.2"></script>
+<script src="/assets/js/main.js?v=1.7.3"></script>
 <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "0de5ef6f4da44fab82f9060bd4f4bc10"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>

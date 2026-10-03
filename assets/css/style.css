@@ -193,13 +193,14 @@ body.en span[data-lang="en"]{display:inline !important}
 body.en .fl a[data-lang="en"]{display:inline !important}
 body.en button[data-lang="en"]{display:inline-flex !important}
 body.en label[data-lang="en"]{display:block !important}
+body.en .ff-label span[data-lang="en"]{display:inline !important}
 body.en p.ff-note[data-lang="en"]{display:block !important}
 
 /* ── GENERIC PAGE (Impressum, Datenschutz, Blog) ── */
 .ak-page{max-width:var(--mw);margin:0 auto;padding:calc(var(--nh) + 3rem) 2rem 4rem}
 .ak-page h1{font-family:var(--serif);font-size:2rem;margin-bottom:2rem}
-.ak-page h2{font-family:var(--serif);font-size:1.4rem;margin:2rem 0 1rem}
-.ak-page h3{font-family:var(--serif);font-size:1.15rem;margin:1.5rem 0 .75rem}
+.ak-page h2{font-family:var(--serif);font-size:1.15rem;margin:1.5rem 0 .75rem}
+.ak-page h3{font-family:var(--sans);font-size:1rem;font-weight:700;margin:1.25rem 0 .5rem}
 .ak-page p{margin-bottom:1rem;color:var(--g600);line-height:1.8}
 .ak-page a{color:var(--black);font-weight:500}
 .ak-page ul,.ak-page ol{margin:0 0 1rem 1.5rem;color:var(--g600)}
