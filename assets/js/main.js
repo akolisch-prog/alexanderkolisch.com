@@ -21,23 +21,38 @@ window.addEventListener('scroll', function () {
   if (nav) nav.classList.toggle('scrolled', window.scrollY > 20);
 });
 
-// Language toggle
-function setLang(l) {
+// Language toggle — choice is remembered across pages (localStorage, no cookie)
+function applyLang(l) {
   document.body.classList.toggle('en', l === 'en');
   document.documentElement.lang = l;
   document.querySelectorAll('.lt button').forEach(function (b) {
     b.classList.toggle('active', b.textContent.trim() === l.toUpperCase());
   });
+}
+
+function setLang(l) {
+  applyLang(l);
+  try { localStorage.setItem('ak-lang', l); } catch (e) {}
   closeMenu();
 }
 
+// Apply stored language (or #en from hreflang link) on every page load
+(function () {
+  var l = 'de';
+  try { l = localStorage.getItem('ak-lang') || 'de'; } catch (e) {}
+  if (window.location.hash === '#en') l = 'en';
+  if (l === 'en') applyLang('en');
+})();
+
 // Mobile menu
 function toggleMenu() {
-  document.getElementById('mm').classList.toggle('open');
+  var mm = document.getElementById('mm');
+  if (mm) mm.classList.toggle('open');
 }
 
 function closeMenu() {
-  document.getElementById('mm').classList.remove('open');
+  var mm = document.getElementById('mm');
+  if (mm) mm.classList.remove('open');
 }
 
 // Spam-protected mailto — email never appears as plaintext in source
