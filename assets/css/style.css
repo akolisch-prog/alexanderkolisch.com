@@ -9,7 +9,7 @@
 @font-face{font-family:'Libre Baskerville';font-style:normal;font-weight:700;font-display:swap;src:url('../fonts/libre-baskerville-latin-700-normal.woff2') format('woff2')}
 
 /* ── RESET & BASE ── */
-:root{--black:#0a0a0a;--white:#fafafa;--g50:#f5f5f5;--g100:#e8e8e8;--g200:#d4d4d4;--g300:#a3a3a3;--g400:#737373;--g500:#525252;--g600:#404040;--serif:'Libre Baskerville',Georgia,serif;--sans:'Manrope',-apple-system,sans-serif;--mw:1080px;--nh:64px}
+:root{--black:#0a0a0a;--white:#fafafa;--g50:#f5f5f5;--g100:#e8e8e8;--g200:#d4d4d4;--g300:#a3a3a3;--g400:#6b6b6b;--g500:#525252;--g600:#404040;--serif:'Libre Baskerville',Georgia,serif;--sans:'Manrope',-apple-system,sans-serif;--mw:1080px;--nh:64px}
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth;font-size:16px;-webkit-font-smoothing:antialiased}
 body{font-family:var(--sans);color:var(--black);background:var(--white);line-height:1.7;overflow-x:hidden}
@@ -57,7 +57,7 @@ body{font-family:var(--sans);color:var(--black);background:var(--white);line-hei
 /* ── SECTIONS ── */
 section{padding:6rem 2rem}
 .si{max-width:var(--mw);margin:0 auto}
-.sl{font-size:.72rem;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--g300);margin-bottom:1rem}
+.sl{font-size:.72rem;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--g400);margin-bottom:1rem}
 .st{font-family:var(--serif);font-size:clamp(1.8rem,3.5vw,2.6rem);font-weight:700;line-height:1.2;margin-bottom:2rem;letter-spacing:-.01em}
 
 /* ── PROFIL ── */
@@ -69,7 +69,7 @@ section{padding:6rem 2rem}
 .tag.t1{background:#e8f5e9;color:#2e7d32}
 .tag.t2{background:#e3f2fd;color:#1565c0}
 .tag.t3{background:#f3e5f5;color:#7b1fa2}
-.tag.t4{background:#fff3e0;color:#e65100}
+.tag.t4{background:#fff3e0;color:#bf360c}
 .profil-ctas{display:flex;gap:.75rem;margin-top:2rem;margin-bottom:.5rem}
 
 /* ── KARRIERE / TIMELINE ── */
@@ -146,10 +146,10 @@ section{padding:6rem 2rem}
 /* ── FOOTER ── */
 .ak-footer{background:var(--black);border-top:1px solid rgba(255,255,255,.08);padding:1.5rem 2rem}
 .fi{max-width:var(--mw);margin:0 auto;display:flex;justify-content:space-between;align-items:center}
-.fc{font-size:.75rem;color:var(--g500)}
+.fc{font-size:.75rem;color:#8f8f8f}
 .fl{display:flex;gap:1.5rem}
-.fl a{font-size:.75rem;color:var(--g500);text-decoration:none;transition:color .2s}
-.fl a:hover{color:var(--g300)}
+.fl a{font-size:.75rem;color:#8f8f8f;text-decoration:none;transition:color .2s}
+.fl a:hover{color:var(--g100)}
 
 /* ── REVEAL ANIMATIONS ── */
 .r{opacity:0;transform:translateY(30px);transition:opacity .7s,transform .7s}
