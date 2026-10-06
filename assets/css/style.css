@@ -39,19 +39,19 @@ body{font-family:var(--sans);color:var(--black);background:var(--white);line-hei
 .hero-photo{width:280px;height:340px;border-radius:10px;overflow:hidden;flex-shrink:0;background:var(--g100)}
 .hero-photo picture{display:block;width:100%;height:100%}
 .hero-photo img{width:100%;height:100%;object-fit:cover;filter:grayscale(1);object-position:70% top}
-.hero-eyebrow{font-family:var(--sans);font-size:.78rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--g400);margin-bottom:1.25rem;opacity:0;transform:translateY(20px);animation:fu .8s .2s forwards;display:flex;align-items:center;gap:.6rem}
+.hero-eyebrow{font-family:var(--sans);font-size:.78rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--g400);margin-bottom:1.25rem;opacity:0;transform:translateY(20px);animation:fu .5s .05s forwards;display:flex;align-items:center;gap:.6rem}
 .hero-eyebrow::before{content:'';width:24px;height:3px;background:#e65100;border-radius:2px;flex-shrink:0}
 .hero-claim{font-family:var(--serif);font-size:clamp(2.8rem,6vw,5rem);font-weight:700;line-height:1.1;letter-spacing:-.02em;margin-bottom:1.5rem;transform:translateY(12px);animation:fu .6s .1s forwards;font-style:italic}
-.hero-sub{font-size:1.05rem;font-weight:400;color:var(--g500);max-width:540px;line-height:1.75;margin-bottom:1rem;opacity:0;transform:translateY(20px);animation:fu .8s .6s forwards}
-.hero-sub2{font-size:.95rem;font-weight:400;color:var(--g400);max-width:540px;line-height:1.7;margin-bottom:2.5rem;opacity:0;transform:translateY(20px);animation:fu .8s .7s forwards}
-.hero-ctas{display:flex;gap:.75rem;opacity:0;transform:translateY(20px);animation:fu .8s .8s forwards}
+.hero-sub{font-size:1.05rem;font-weight:400;color:var(--g500);max-width:540px;line-height:1.75;margin-bottom:1rem;opacity:0;transform:translateY(20px);animation:fu .5s .15s forwards}
+.hero-sub2{font-size:.95rem;font-weight:400;color:var(--g400);max-width:540px;line-height:1.7;margin-bottom:2.5rem;opacity:0;transform:translateY(20px);animation:fu .5s .2s forwards}
+.hero-ctas{display:flex;gap:.75rem;opacity:0;transform:translateY(20px);animation:fu .5s .25s forwards}
 .hero-cta{display:inline-flex;align-items:center;gap:.5rem;font-family:var(--sans);font-size:.85rem;font-weight:600;color:var(--white);background:var(--black);text-decoration:none;padding:12px 28px;border-radius:6px;transition:all .25s}
 .hero-cta:hover{background:var(--g600);transform:translateY(-1px)}
 .hero-cta.sec{background:transparent;color:var(--black);border:1px solid var(--g200)}
 .hero-cta.sec:hover{border-color:var(--black);transform:translateY(-1px)}
-.hs{position:absolute;bottom:2.5rem;left:50%;transform:translateX(-50%);opacity:0;animation:fu .8s 1.2s forwards}
+.hs{position:absolute;bottom:2.5rem;left:50%;transform:translateX(-50%);opacity:0;animation:fu .5s .4s forwards}
 .hs .line{width:1px;height:48px;background:var(--g200);margin:0 auto;position:relative;overflow:hidden}
-.hs .line::after{content:'';position:absolute;top:-100%;left:0;width:100%;height:100%;background:#e65100;animation:sl 2s infinite}
+.hs .line::after{content:'';position:absolute;top:-100%;left:0;width:100%;height:100%;background:#e65100;top:0;height:40%}
 @keyframes sl{0%{top:-100%}100%{top:100%}}
 @keyframes fu{to{opacity:1;transform:translateY(0)}}
 
