@@ -105,6 +105,7 @@ details[open]>summary .chev{transform:rotate(180deg)}
 .vb{display:inline-block;font-family:var(--sans);font-size:.62rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:3px 9px;border-radius:4px;margin-left:.5rem;vertical-align:middle}
 .vb.exit{background:#e8f5e9;color:#2e7d32}
 .vb.acc{background:#e3f2fd;color:#1565c0}
+.vb.jv{background:#fff3e0;color:#bf360c}
 
 /* ── FAQ ── */
 .fs{background:var(--g50)}
