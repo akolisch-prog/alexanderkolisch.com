@@ -119,8 +119,8 @@ Concept, licensing and launch of maxdome, one of the first major video-on-demand
 
 ## Education
 
-- MBA, ESADE Business School, Barcelona, Spain (Class of 2013). Ranked 7th in the Financial Times Global MBA Ranking; triple-crown accredited (AACSB, EQUIS, AMBA). https://www.esade.edu/mba
-- Diplom-Wirtschaftsingenieur (Diploma in Business Engineering), Hochschule der Medien (HdM) Stuttgart, Germany (2006). Final grade 1.8. https://www.hdm-stuttgart.de
+- MBA, ESADE Business School, Barcelona, Spain (Class of 2013). One of the world's leading business schools. In the Financial Times Global MBA Ranking 2026, its Full-Time MBA ranks 7th worldwide and 5th in Europe, the second consecutive year in the top 10. ESADE holds triple accreditation (AACSB, EQUIS, AMBA), placing it among the small group of “Triple Crown” schools. https://www.esade.edu/mba
+- Diplom-Wirtschaftsingenieur (Diploma in Business Engineering), Hochschule der Medien (HdM) Stuttgart, Germany (2006). Studies combining technology, media and business administration with two internship semesters. Final grade 1.8, thesis on the competition between the internet and TV for advertising budgets. https://www.hdm-stuttgart.de
 
 ## Key competencies
 
@@ -159,7 +159,7 @@ Via the contact form on this page or via LinkedIn. Inquiries about advisory proj
 
 ## Engagement
 
-Volunteer at GuteNachtBus Düsseldorf, a project providing warm meals, drinks and conversation to homeless people in Düsseldorf.
+Volunteer at GuteNachtBus Düsseldorf, a project providing warm meals, drinks and conversation to homeless people in Düsseldorf. The bus stops at fixed points across the city in the evenings so guests know where to find it. It offers food, drinks and everyday essentials such as clothing and toiletries, but above all time for a conversation. https://gutenachtbus.de
 
 ## Contact
 
@@ -242,5 +242,9 @@ Einen MBA der ESADE Business School in Barcelona, Platz 7 im Financial Times Glo
 
 ### Ausbildung
 
-- MBA, ESADE Business School, Barcelona (Class of 2013), Platz 7 im Financial Times Global MBA Ranking, „Triple Crown“-akkreditiert (AACSB, EQUIS, AMBA).
-- Diplom-Wirtschaftsingenieur, Hochschule der Medien Stuttgart (2006), Abschlussnote 1,8.
+- MBA, ESADE Business School, Barcelona (Class of 2013). Eine der führenden Business Schools weltweit. Im Financial Times Global MBA Ranking 2026 steht das Full-Time MBA auf Platz 7 weltweit und auf Platz 5 in Europa, das zweite Jahr in Folge in den Top 10. ESADE ist dreifach akkreditiert (AACSB, EQUIS, AMBA) und gehört damit zum kleinen Kreis der „Triple Crown“-Schulen. https://www.esade.edu/mba
+- Diplom-Wirtschaftsingenieur an der Hochschule der Medien Stuttgart, ein Studium an der Schnittstelle von Technik, Medien und Betriebswirtschaft mit zwei Praxissemestern. Abschlussnote 1,8, Diplomarbeit über den Wettbewerb von Internet und TV um Werbebudgets. https://www.hdm-stuttgart.de
+
+### Engagement
+
+Ehrenamtliches Engagement beim GuteNachtBus Düsseldorf, einem Projekt, das obdachlose Menschen in Düsseldorf mit warmen Mahlzeiten, Getränken und Gesprächen versorgt. Der Bus fährt abends feste Haltestellen in der Stadt an, damit die Gäste wissen, wo sie ihn finden. Es gibt Essen, Getränke und Dinge des täglichen Bedarfs wie Kleidung und Hygieneartikel, vor allem aber Zeit für ein Gespräch. https://gutenachtbus.de
